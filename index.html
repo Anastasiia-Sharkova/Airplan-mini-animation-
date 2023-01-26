@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="ad.size" content="width=500,height=500" />
+
+  <link rel="preload" href="./stars.svg" as="image" />
+  <link rel="preload" href="./earth.png" as="image" />
+  <link rel="preload" href="./plan.svg" as="image" />
+
+  <link rel="stylesheet" href="./style.css" />
+  <title>500x500</title>
+  <script>
+    var clickTag = "https://www.t-mobile.nl/";
+  </script>
+</head>
+<body>
+  <div id="wrapper">
+    <a id="ad" href="javascript:window.open(window.clickTag)">
+      <div class="frame">
+        <div class="stars">
+          <img src="./stars.png" alt="." class="stars">
+        </div>
+        <img src="./earth1.png" alt="earth" class="earth">
+        <div class="hover">
+          <img src="./airplane.png" alt="airplan" class="plan">
+        </div>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
